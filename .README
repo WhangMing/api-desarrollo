@@ -1,0 +1,20 @@
+/api
+│
+├── /config
+│   └── DB.php                # Conexión a la base de datos
+│
+├── /models
+│   └── Product.php 
+        User.php          # Modelo para los productos
+│
+├── /controllers
+│   ├── AuthController.php    # Controlador para autenticación
+│   └── ProductController.php # Controlador para productos
+│
+├── /middleware
+│   └── AuthMiddleware.php    # Middleware para la autenticación
+│
+├── /helpers
+│   └── Response.php          # Clase de ayuda para manejar respuestas
+│
+└── index.php                 # Punto de entrada de la API
